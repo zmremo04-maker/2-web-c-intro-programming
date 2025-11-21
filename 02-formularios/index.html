@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <div>
+        
+        <br> <!-- Breack -->
+        <hr> <!-- Horizontal rule -->
+        <br> <!-- Break -->
+
+        <h1>Formularios</h1>
+
+        <div id="contact-form" class="form-container">
+            <h2>Contact form</h2>
+            <form action="">
+
+                <div>
+                    <div>
+                        <label for="fname">Firs name *</label>
+                        <input type="text" name="fname" id="fname">
+                    </div>
+                    <div>
+                        <label for="lname">Last name *</label>
+                        <input type="text" name="lname" id="lname">
+                    </div>
+                </div>
+
+                <div>
+                    <div>
+                        <label for="email">Email Address *</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                </div>
+
+                <div>
+                    <p>Query Type *</p>
+                    <div>
+                        <div>
+                            <input type="radio" name="query_type" id="general" value="General Enquery">
+                            <label for="general">General Enquery</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="query_type" id="support" value="Support Request">
+                            <label for="general">Support Request</label>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div>
+                    <label for="message"></label>
+                    <textarea name="message" id="message" rows="4" cols="50"></textarea>
+                </div>
+                <div>
+                    <input type="checkbox" name="consent" id="consent" value="true">
+                    <label for="consent">I consent to being contacted by the team *</label>
+                </div>
+                
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+
+
+
+    </div>
+    
+</body>
+</html>
